@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Covid19 Trace App</string>
+    <string name="title">Tentang Covid-19</string>
+    <string name="main_article">
+        Covid-19 merupakan penyakit yang disebabkan oleh virus SARS-CoV-2. Penyakit ini merupakan
+        penyakit yang menyerang saluran pernapasan, sebagian besar orang yang tertular mengalami
+        gejala ringan hingga sedang, dan sebagian orang lagi mengalami gejala berat hingga kritis
+        dan harus mendapatkan penanganan medis.\n\n
+
+        Penyebaran virus dapat dari mulut atau hidung spesimen yang tertular melalui batuk, bersin,
+        berbicara atau bernapas. Virus ini juga dapat menempel pada benda-benda yang dipegang oleh
+        penderita dan tangan juga dapat menjadi media persebaran. Penyebaran lainnya melalui
+        udara, dengan orang berkerumun dan tanpa masker mudah virus menjangkiti orang lainnya.\n\n
+
+        Gejala umum dari Covid-19 diantaranya demam, batuk, kelelahan, kehilangan rasa dan bau.
+        Gejala yang tidak umum antara lain sakit tenggorokan, sakit kepala, nyeri, diare, muncul
+        ruam pada kulit dan iritasi. \n\n
+
+        Perilaku Pencegahan antara lain selalu cuci tangan bila dari luar rumah, tidak menyentuh
+        bagian muka terutama mata, hidung dan mulut sembarangan, gunakan masker bila keluar rumah,
+        menjaga jarak dari orang yang terpapar, menghindari kerumunan bila berkegiatan diluar rumah,
+        mengurangi mobilitas, dan segera lakukan vaksinasi.
+    </string>
+
+    <string name="ringan">
+        Gejala ringan disarankan untuk melakukan isolasi mandiri di rumah masing-masing dengan
+        pengawasan doker dari puskesmas setempat atau layanan telemedecine. Jika sudah selesai masa
+        isolasi mandiri akan mendapatkan surat bebas karantina dari puskesmas setempat.
+    </string>
+
+    <string name="sedang">
+        Gejala sedang covid-19 akan dirujuk ke Rumah Sakit yang dapat menangani pasien Covid-19.
+        Alternatif lain jika pasien tidak bisa atau tidak mau dibawa ke Rumah Sakit dapat juga
+        dirawat di rumah masing-masing dengan pengawasan dokter dari Puskesmas setempat. Jika sudah
+        selesai menjalankan perawatan dan melakukan isolasi mandiri mendapatkan surat bebas karantina.
+    </string>
+
+    <string name="berat">
+        Gejala berat Covid-19 akan dirujuk ke Rumah Sakit yang dapat menangani pasien Covid-19. Pasien
+        covid-19 bergejala berat harus mendapatkan pasokan oksigen yang cukup untuk memberikan oksigen
+        ke pasien. Pasien yang memiliki riwayat penyakit menyerta seperti jantung, kanker, asma,
+        gangguan ginjal, atau obesitas harus segera mendapatkan perawatan lebih lanjut. Jika sudah
+        selesai menjalankan perawatan dan melakukan isolasi mandiri mendapatkan surat bebas karantina.
+    </string>
+
+    <string name="kritis">
+        Seseorang yang memiliki gejala berat akan mendapatkan perawatan di Unit Perawatan Intensif (ICU)
+        rumah sakit sesuai dengan kondisi yang dialaminya sampai kondisinya membaik. Biasanya akan dibantu
+        alat bantu bernapas melalui mesin ventilator dan pengobatan lain untuk Covid-19 bergejala berat.
+        Pada kondisi ini, pasien akan mengalami komplikasi seperti gagal napas atau henti jantung.
+        apabila tidak segera ditangani akan menyebabkan kematian.
+    </string>
+    <string name="nama">Nama</string>
+    <string name="identitas">Identitas</string>
+
+</resources>

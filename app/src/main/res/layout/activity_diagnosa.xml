@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".DiagnosaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="Gejala"
+            android:textAlignment="center"
+            android:textSize="33sp"
+            android:textColor="@color/hitam"
+            android:layout_margin="12dp"
+            android:layout_marginEnd="2dp"
+            />
+
+        <CheckBox
+            android:id="@+id/suhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Suhu > 38°C"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/batuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batuk"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/sesak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sesak Nafas"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/sakitKepala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sakit Kepala"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/badanLemah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Badan Lemah"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/hilangRasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hilang Rasa"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/hilangBau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hilang Bau"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/sakitTenggorokan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sakit Tenggorokan"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/nyeriDada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Dada"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/diare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diare"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/nyeriBadan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nyeri Badan"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/iritasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iritasi"
+            android:textSize="20sp"
+            android:minHeight="48dp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/ruam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ruam Kulit"
+            android:textSize="20sp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/kelelahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kelelahan"
+            android:textSize="20sp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/nafsuHilang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nafsu Makan Hilang"
+            android:textSize="20sp"
+            />
+
+        <CheckBox
+            android:onClick="onClickChecked"
+            android:id="@+id/napasPendek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Napas Pendek"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cek diagnosa"
+            />
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

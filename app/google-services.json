@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "472288033616",
+    "project_id": "projectcovid-bc2e2",
+    "storage_bucket": "projectcovid-bc2e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472288033616:android:08e672c5cdad4649768a55",
+        "android_client_info": {
+          "package_name": "com.example.covid19traceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472288033616-lihr960bp6morrq8pvbs8rt3qm1inid9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfxqzvk3_oMhYuvBfEwL3uOYA767pR21c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472288033616-lihr960bp6morrq8pvbs8rt3qm1inid9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472288033616:android:a71b9272e83c310f768a55",
+        "android_client_info": {
+          "package_name": "com.example.covid_19tracingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472288033616-lihr960bp6morrq8pvbs8rt3qm1inid9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfxqzvk3_oMhYuvBfEwL3uOYA767pR21c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472288033616-lihr960bp6morrq8pvbs8rt3qm1inid9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
